@@ -1,4 +1,4 @@
-# tessagon: tessellation / tiling with python
+# tessagon: tessellation/tiling with python
 
 Tessellate your favorite 3D surfaces (technically, 2D manifolds) with triangles, hexagons, or a number of other curated tiling types!
 
@@ -131,7 +131,7 @@ Additional tessagon classes can be added by deconstructing how a tessellation fi
 
 Each tessagon class is initialized with number of keyword options, e.g.:
 
-```
+```python
 from tessagon.types.dodeca_tessagon import DodecaTessagon
 from tessagon.adaptors.vtk_adaptor import VtkAdaptor
 tessagon = DodecaTessagon(function=my_func,
